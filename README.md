@@ -8,3 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # test
 # Gemini-Clone
+
+Gemini, formerly known as Bard, is a generative artificial intelligence chatbot developed by Google. Based on the large language model (LLM) of the same name and developed as a direct response to the meteoric rise of OpenAI's ChatGPT, it was launched in a limited capacity in March 2023 before expanding to other countries in May.
+
+
+![gemini by Vusi](https://github.com/VUSI47-DEV/Gemini-Clone/assets/67586346/4ef44026-64a1-4790-b357-fb3bdfc982f1)
