@@ -1,9 +1,11 @@
 import "./Sidebar.css";
 import { assets } from "../../gemini-clone-assets/assets/assets";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { Context } from "../../context/Context";
 
 const Sidebar = () => {
   const [extended, setExtended] = useState(false);
+  const {recentPrompt} = useContext(Context)
 
   return (
     <div className="sidebar">
@@ -23,7 +25,7 @@ const Sidebar = () => {
             <p className="recent-title">Recent</p>
             <div className="recent-entry">
               <img src={assets.message_icon} alt="" />
-              <p>What is react...</p>
+              <p>{recentPrompt}</p>
             </div>
           </div>
         ) : null}
