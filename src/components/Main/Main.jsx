@@ -80,13 +80,12 @@ const Main = () => {
             <div>
               <img src={assets.gallery_icon} alt="icon" />
               <img src={assets.mic_icon} alt="icon" />
-              <img onClick={() => onSent()} src={assets.send_icon} alt="icon" />
+              {input? <img onClick={() => onSent()} src={assets.send_icon} alt="icon" /> : null}
             </div>
           </div>
           <div className="bottom-info">
             <p>
-              Gemini may display inaccurate info, including about people, so
-              double-check it relaibility
+            Gemini may display inaccurate info, including about people, so double-check its responses.
             </p>
           </div>
         </div>

@@ -7,9 +7,7 @@
     padding: 25px 15px;
     
 } 
-.sidebar{
-    transition: all 1s ease-in-out;
-}
+
 .sidebar img{
     width: 20px;
 }
@@ -34,6 +32,7 @@
 .sidebar .recent{
     display: flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 
 }
 .sidebar .recent-title{
@@ -53,7 +52,6 @@
 }
 .sidebar .recent-entry:hover{
     background-color: #e2e6eb;
-    
 }
 .sidebar .bottom{
     display: flex;
@@ -63,4 +61,10 @@
 .sidebar .bottom-item{
     padding-right: 10px;
     cursor: pointer;
+}
+
+@media(max-width:600px){
+    .sidebar{
+        display: none;
+    }
 }
