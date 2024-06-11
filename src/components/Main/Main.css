@@ -155,6 +155,12 @@
     height:20px;
     animation: loader 3s infinite linear;
 }
+.dev-by{
+    margin-top: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    cursor: pointer;
+}
 @keyframes loader{
     0%{
         background-position: -800px 0px;

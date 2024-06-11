@@ -87,6 +87,7 @@ const Main = () => {
             <p>
             Gemini may display inaccurate info, including about people, so double-check its responses.
             </p>
+            <p className="dev-by">Developed by Vusumuzi Khutswa</p>
           </div>
         </div>
       </div>
